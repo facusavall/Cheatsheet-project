@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>HTML Table Reference</h1>
-    <h2>HTML Element Tags</h2>
-    <div class="tags">
+    <div class="header">
+        <h1>HTML Table Reference</h1>
+    </div>
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="#elements">HTML element tags</a>
+            </li>
+            <li>
+                <a href="#semantic">Semantic tags</a>
+            </li>
+            <li>
+                <a href="#attributes">CSS attributes</a>
+            </li>
+        </ul>
+    </nav>
+
+        <h2 id="elements">HTML element tags</h2>
+    <div class="html">
         <table>
            <thead>
                 <th scope="col">Tag</th>
@@ -285,9 +301,64 @@
                 </tr>
            </tbody>
         </table>
+    <h2 id="semantic">Semantic tags</h2>
+        <table>
+            <thead>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="code">&lt;article&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">Article</a>
+                    </td>
+                    <td>It represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;aside&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside">Aside</a>
+                    </td>
+                    <td>This represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;details&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">Details</a>
+                    </td>
+                    <td>This element creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label must be provided using the <span class="code">&lt;summary&gt;</span> element.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;figcaption&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption">Figure Caption</a>
+                    </td>
+                    <td>This element represents a caption or legend describing the rest of the contents of its parent <span class="code">&lt;figure&gt;</span> element, providing the <span class="code">&lt;figure&gt;</span> an accessible description.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;figure&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">Figure</a>
+                    </td>
+                    <td>It represents self-contained content, potentially with an optional caption, which is specified using the <span class="code">&lt;figcaption&gt;</span> element. The figure, its caption, and its contents are referenced as a single unit.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    <h2>CSS Attributes</h2>
-    <div class="attributes"></div>
+    <h2 id="attributes">CSS Attributes</h2>
+    <div class="css"></div>
         <table>
             <thead>
                 <th scope="col">Attribute</th>
@@ -311,5 +382,8 @@
                 </tr>
             </tbody>
         </table>
+        <footer>
+            <h5>Created by Facu Savall.</h5>
+        </footer>
 </body>
 </html>
