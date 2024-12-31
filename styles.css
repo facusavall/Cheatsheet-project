@@ -27,8 +27,13 @@ thead {
     color: white;
 }
 
+tr {
+    text-align: center;
+}
+
 td {
     border-top: solid 2px black;
+    padding: 0 40px;
 }
 
 .code {
