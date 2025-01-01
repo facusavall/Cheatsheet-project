@@ -16,16 +16,24 @@
                 <a href="#elements">HTML element tags</a>
             </li>
             <li>
-                <a href="#semantic">Semantic tags</a>
+                <a href="#semantic">HTML Semantic tags</a>
             </li>
             <li>
-                <a href="#html-attributes">CSS attributes</a>
+                <a href="#attributes">HTML attributes</a>
+            </li>
+            <li>
+                <a href="#common-selectors">CSS selectors</a>
+            </li>
+            <li>
+                <a href="#positioning">CSS position declarations</a>
+            </li>
+            <li>
+                <a href="#sizing">CSS size declarations</a>
             </li>
         </ul>
     </nav>
-
-        <h2 id="elements">HTML element tags</h2>
     <div class="html">
+        <h2 id="elements">HTML element tags</h2>
         <table>
            <thead>
                 <th scope="col">Tag</th>
@@ -137,13 +145,6 @@
                     </td>
                     <td>Embed</td>
                     <td>Embeds external content, such as video, images, pages, etc., at the specified point in the document.</td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="code">&lt;form&gt;</span>
-                    </td>
-                    <td>Form</td>
-                    <td>Creates an HTML form for user input. This can include open ended text inputs, radio buttons, calendar information, and more.</td>
                 </tr>
                 <tr>
                     <td>
@@ -301,7 +302,7 @@
                 </tr>
            </tbody>
         </table>
-    <h2 id="semantic">Semantic tags</h2>
+    <h2 id="semantic">HTML Semantic tags</h2>
         <table>
             <thead>
                 <th scope="col">Tag</th>
@@ -354,11 +355,92 @@
                     </td>
                     <td>It represents self-contained content, potentially with an optional caption, which is specified using the <span class="code">&lt;figcaption&gt;</span> element. The figure, its caption, and its contents are referenced as a single unit.</td>
                 </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;footer&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer">Footer</a>
+                    </td>
+                    <td>The <span>&lt;footer&gt;</span> HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element. A <span>&lt;footer&gt;</span> typically contains information about the author of the section, copyright data or links to related documents.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;form&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Form</a>
+                    </td>
+                    <td>This element represents a document section containing interactive controls for submitting information.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;header&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">Header</a>
+                    </td>
+                    <td>This element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;main&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main">Main</a>
+                    </td>
+                    <td>This HTML element represents the dominant content of the <span class="code">body</span> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;mark&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark">Mark Text</a>
+                    </td>
+                    <td>This element represents text which is <b>marked</b> or <b>highlighted</b> for reference or notation purposes due to the marked passage's relevance in the enclosing context.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;nav&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">Navigation Section</a>
+                    </td>
+                    <td>This element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;section&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section">Generic Section</a>
+                    </td>
+                    <td>This element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;summary&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary">Disclosure Summary</a>
+                    </td>
+                    <td>This element specifies a summary, caption, or legend for a <span class="code">details</span> element's disclosure box. Clicking the <span class="code">summary</span> element toggles the state of the parent <span class="code">details</span> element open and closed.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;time&gt;</span>
+                    </td>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time">(Date) Time</a>
+                    </td>
+                    <td>This element represents a specific period in time. It may include the datetime attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.</td>
+                </tr>
             </tbody>
         </table>
     </div>
-    <h2>HTML Attributes</h2>
-    <div class="html-attributes"></div>
+    <div class="html-attributes">
+        <h2 id="attributes">HTML Attributes</h2>
         <table>
             <thead>
                 <th scope="col">Attribute</th>
@@ -382,6 +464,120 @@
                 </tr>
             </tbody>
         </table>
+    </div>
+    <div id="css">
+        <h1>CSS Table Reference</h1>
+        <h2 id="common-selectors">CSS selectors</h2>
+        <table>
+            <thead>
+                <th scope="col">Selector</th>
+                <th scope="col">Example</th>
+                <th scope="col">Example description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>element</td>
+                    <td>
+                        <span class="code">p</span>
+                    </td>
+                    <td>Selects all <span class="code">&lt;p&gt; elements.</span></td>
+                </tr>
+                <tr>
+                    <td>id</td>
+                    <td>
+                        <span class="code">#firstname</span>
+                    </td>
+                    <td>Selects the element with id="firstname."</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">*</span>
+                    </td>
+                    <td>*</td>
+                    <td>Selects all elements.</td>
+                </tr>
+                <tr>
+                    <td>.class</td>
+                    <td>
+                        <span class="code">.intro<br>p.intro</span>
+                    </td>
+                    <td>Selects all elements with <span class="code">class="intro"</span><br>Selects all <span class="code">&lt;p&gt;</span> elements with <span class="code">class="intro"</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="positioning">Positioning declarations</h2>
+        <table>
+            <thead>
+                <th scope="col">Property</th>
+                <th scope="col">Value</th>
+                <th scope="col">Definition</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" class="code">position</a>
+                    </td>
+                    <td>
+                        <span class="code"><b>static</b> | relative | absolute | sticky </span>
+                    </td>
+                    <td>It sets the element's position, along with <span class="code">top</span>, <span class="code">right</span>, <span class="code">bottom</span> and <span class="code">left</span> properties. The default is <span class="code">static</span>.</td> 
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" class="code">margin</a>
+                    </td>
+                    <td>Lenght numerical values | Percentages | <span class="code">auto</span></td>
+                    <td>The margin CSS shorthand property sets the margin area on all four sides of an element.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow" class="code">overflow</a>
+                    </td>
+                    <td>
+                        <span class="code"><b>visible</b> | hidden | scroll | auto | clip | hidden</span>
+                    </td>
+                    <td>The overflow CSS shorthand property sets the desired behavior when content does not fit in the element's padding box (overflows) in the horizontal and/or vertical direction.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="sizing">Sizing declarations</h2>
+        <table>
+            <thead>
+                <th scope="col">Property</th>
+                <th scope="col">Value</th>
+                <th scope="col">Definition</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing" class="code">box-sizing</a>
+                    </td>
+                    <td>
+                        <span class="code"><b>content-box</b> | border-box</span>
+                    </td>
+                    <td>The box-sizing CSS property sets how the total width and height of an element is calculated. The <span class="code">content-box</span> value is set by default.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height" class="code">height</a>
+                    </td>
+                    <td>
+                        <span class="code">px | em | % | keyword</span>
+                    </td>
+                    <td>The <span class="code">height</span> CSS property specifies the height of an element. By default, the property defines the height of the content area. If <span class="code">box-sizing</span> is set to <span class="code">border-box</span>, however, it instead determines the height of the border area.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width" class="code">width</a>
+                    </td>
+                    <td>
+                        <span class="code">px | em | % | keyword</span>
+                    </td>
+                    <td>The <span class="code">width</span> CSS property sets an element's width. By default, it sets the width of the content area, but if <span class="code">box-sizing</span> is set to <span class="code">border-box</span>, it sets the width of the border area.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
         <footer>
             <h5>Created by Facu Savall.</h5>
         </footer>
